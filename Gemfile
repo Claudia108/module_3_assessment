@@ -16,8 +16,7 @@ gem "nokogiri", "~> 1.6.7.2"
 gem "faraday"
 gem "figaro"
 gem 'responders'
-
-
+gem "active_model_serializers", github: "rails-api/active_model_serializers"
 
 group :development do
   gem "spring"
