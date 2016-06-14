@@ -13,9 +13,9 @@ class Api::V1::ItemsController < Api::V1::ApiController
     respond_with item.delete
   end
 
-  def create
-    respond_with Item.create(params)
-  end
+  # def create
+  #   respond_with Item.create(params)
+  # end
 
 
   private
