@@ -13,9 +13,11 @@ class Api::V1::ItemsControllerTest < ActionController::TestCase
     parsed_json = JSON.parse(response.body)
 
     assert_response :success
-    assert_equal 2, parsed_json.first.count
-    assert_equal 1, parsed_json.first.id
-    assert_equal "Fork", parsed_json.name
-    refute_equal "http://images/image.png", parsed_json.first.image_url
+    assert_equal 2, parsed_json.count
+    assert parsed_json.first.has_key?("id")
+    assert parsed_json.first.has_key?("name")
+    assert parsed_json.first.has_key?("description")
+    refute parsed_json.first.has_key?("created_at")
+    refute parsed_json.first.has_key?("updated_at")
   end
 end
