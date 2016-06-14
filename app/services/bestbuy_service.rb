@@ -2,16 +2,15 @@ class BestbuyService
 
   def initialize
     @conn = Faraday.new(url: "https://api.bestbuy.com/v1")
-    @conn.headers["Authorizatin"] = ENV['api_key']
+    @conn.headers["Authorization"] = ENV['api_key']
   end
 
   def parse(response)
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def stores
-    zip = params[:postal_code]
-    @conn.get "stores(postalCode=#{zip})?format=json&show=storeId,storeType,name,city,region&apiKey=#{ENV['api_key']}"
+  def raw_stores
+    parse(@conn.get "stores(postalCode=80202)?format=json&&apiKey=#{ENV['api_key']}")
   end
 
 end

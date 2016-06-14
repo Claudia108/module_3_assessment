@@ -1,0 +1,218 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bestbuy.com/stores(postalCode=55423)?apiKey=z2ehwc7a6wvbg8n7sbmu7nuy&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - z2ehwc7a6wvbg8n7sbmu7nuy
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - text/html;charset=utf-8
+      Date:
+      - Tue, 14 Jun 2016 18:00:42 GMT
+      Server:
+      - thin 1.6.1 codename Death Proof
+      X-Cascade:
+      - pass
+      X-Mashery-Responder:
+      - prod-j-worker-us-east-1d-113.mashery.com
+      Content-Length:
+      - '18'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<h1>Not Found</h1>"
+    http_version: 
+  recorded_at: Tue, 14 Jun 2016 18:00:42 GMT
+- request:
+    method: get
+    uri: https://api.bestbuy.com/v1/stores(postalCode=55423)?apiKey=z2ehwc7a6wvbg8n7sbmu7nuy&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - z2ehwc7a6wvbg8n7sbmu7nuy
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 14 Jun 2016 18:00:59 GMT
+      Server:
+      - thin 1.6.1 codename Death Proof
+      X-Mashery-Responder:
+      - prod-j-worker-us-east-1b-109.mashery.com
+      Content-Length:
+      - '4467'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJmcm9tIjogMSwKICAidG8iOiA0LAogICJ0b3RhbCI6IDQsCiAgImN1
+        cnJlbnRQYWdlIjogMSwKICAidG90YWxQYWdlcyI6IDEsCiAgInF1ZXJ5VGlt
+        ZSI6ICIwLjAwMyIsCiAgInRvdGFsVGltZSI6ICIwLjAwOSIsCiAgInBhcnRp
+        YWwiOiBmYWxzZSwKICAiY2Fub25pY2FsVXJsIjogIi92MS9zdG9yZXMocG9z
+        dGFsQ29kZT1cIjU1NDIzXCIpP2Zvcm1hdD1qc29uJmFwaUtleT16MmVod2M3
+        YTZ3dmJnOG43c2JtdTdudXkiLAogICJzdG9yZXMiOiBbCiAgICB7CiAgICAg
+        ICJzdG9yZUlkIjogODU1MywKICAgICAgInN0b3JlVHlwZSI6ICJFeHByZXNz
+        IiwKICAgICAgInRyYWRlSW4iOiAiTm8gVHJhZGUtSW5zIGFjY2VwdGVkIiwK
+        ICAgICAgIm5hbWUiOiAiQmVzdCBCdXkgSFEiLAogICAgICAibG9uZ05hbWUi
+        OiAiQmVzdCBCdXkgSFEiLAogICAgICAiYWRkcmVzcyI6ICI3NjAxIFBlbm4g
+        QXZlIFNvdXRoIiwKICAgICAgImFkZHJlc3MyIjogbnVsbCwKICAgICAgImNp
+        dHkiOiAiUmljaGZpZWxkIiwKICAgICAgInJlZ2lvbiI6ICJNTiIsCiAgICAg
+        ICJmdWxsUG9zdGFsQ29kZSI6ICI1NTQyMyIsCiAgICAgICJjb3VudHJ5Ijog
+        IlVTIiwKICAgICAgImxhdCI6IDQ0Ljg2Mzk2NSwKICAgICAgImxuZyI6IC05
+        My4zMDUzNDUsCiAgICAgICJob3VycyI6ICJNb246IDAtMTE6NTk7IFR1ZTog
+        MC0xMTo1OTsgV2VkOiAwLTExOjU5OyBUaHVyczogMC0xMTo1OTsgRnJpOiAw
+        LTExOjU5OyBTYXQ6IDAtMTE6NTk7IFN1bjogMC0xMTo1OSIsCiAgICAgICJo
+        b3Vyc0FtUG0iOiAiTW9uOiAwYW0tMTE6NTlwbTsgVHVlOiAwYW0tMTE6NTlw
+        bTsgV2VkOiAwYW0tMTE6NTlwbTsgVGh1cnM6IDBhbS0xMTo1OXBtOyBGcmk6
+        IDBhbS0xMTo1OXBtOyBTYXQ6IDBhbS0xMTo1OXBtOyBTdW46IDBhbS0xMTo1
+        OXBtIiwKICAgICAgImdtdE9mZnNldCI6IG51bGwsCiAgICAgICJzZXJ2aWNl
+        cyI6IFsKCiAgICAgIF0sCiAgICAgICJwaG9uZSI6ICI4NzctNDE1LTM0ODci
+        LAogICAgICAicG9zdGFsQ29kZSI6ICI1NTQyMyIKICAgIH0sCiAgICB7CiAg
+        ICAgICJzdG9yZUlkIjogODAwMSwKICAgICAgInN0b3JlVHlwZSI6ICJFeHBy
+        ZXNzIiwKICAgICAgInRyYWRlSW4iOiAiTm8gVHJhZGUtSW5zIGFjY2VwdGVk
+        IiwKICAgICAgIm5hbWUiOiAiQmVzdCBCdXkgSFEiLAogICAgICAibG9uZ05h
+        bWUiOiAiQmVzdCBCdXkgSFEgQWNyb3NzIGZyb20gdGhlIENhcmlib3UgQ29m
+        ZmVlIHN0YW5kIGNsb3NlciB0byB0aGUgZnJvbnQgb2YgdGhlIG1haW4gbG9i
+        YnkiLAogICAgICAiYWRkcmVzcyI6ICI3NjAxIFBlbm4gQXZlIFNvdXRoIiwK
+        ICAgICAgImFkZHJlc3MyIjogbnVsbCwKICAgICAgImNpdHkiOiAiUmljaGZp
+        ZWxkIiwKICAgICAgInJlZ2lvbiI6ICJNTiIsCiAgICAgICJmdWxsUG9zdGFs
+        Q29kZSI6ICI1NTQyMyIsCiAgICAgICJjb3VudHJ5IjogIlVTIiwKICAgICAg
+        ImxhdCI6IDQ0Ljg2NDcyOSwKICAgICAgImxuZyI6IC05My4zMDYzOTEsCiAg
+        ICAgICJob3VycyI6ICJNb246IDAtMTE6NTk7IFR1ZTogMC0xMTo1OTsgV2Vk
+        OiAwLTExOjU5OyBUaHVyczogMC0xMTo1OTsgRnJpOiAwLTExOjU5OyBTYXQ6
+        IDAtMTE6NTk7IFN1bjogMC0xMTo1OSIsCiAgICAgICJob3Vyc0FtUG0iOiAi
+        TW9uOiAwYW0tMTE6NTlwbTsgVHVlOiAwYW0tMTE6NTlwbTsgV2VkOiAwYW0t
+        MTE6NTlwbTsgVGh1cnM6IDBhbS0xMTo1OXBtOyBGcmk6IDBhbS0xMTo1OXBt
+        OyBTYXQ6IDBhbS0xMTo1OXBtOyBTdW46IDBhbS0xMTo1OXBtIiwKICAgICAg
+        ImdtdE9mZnNldCI6IG51bGwsCiAgICAgICJzZXJ2aWNlcyI6IFsKCiAgICAg
+        IF0sCiAgICAgICJwaG9uZSI6ICI4NzctNDE1LTM0ODciLAogICAgICAicG9z
+        dGFsQ29kZSI6ICI1NTQyMyIsCiAgICAgICJsb2NhdGlvbiI6ICJBY3Jvc3Mg
+        ZnJvbSB0aGUgQ2FyaWJvdSBDb2ZmZWUgc3RhbmQgY2xvc2VyIHRvIHRoZSBm
+        cm9udCBvZiB0aGUgbWFpbiBsb2JieSIKICAgIH0sCiAgICB7CiAgICAgICJz
+        dG9yZUlkIjogMjgxLAogICAgICAic3RvcmVUeXBlIjogIkJpZ0JveCIsCiAg
+        ICAgICJ0cmFkZUluIjogIlRyYWRlLUluIC0gTm8tcmVjZWlwdCIsCiAgICAg
+        ICJuYW1lIjogIlJpY2hmaWVsZCIsCiAgICAgICJsb25nTmFtZSI6ICJCZXN0
+        IEJ1eSAtIFJpY2hmaWVsZCIsCiAgICAgICJhZGRyZXNzIjogIjEwMDAgV2Vz
+        dCA3OHRoIFN0LiIsCiAgICAgICJhZGRyZXNzMiI6ICIiLAogICAgICAiY2l0
+        eSI6ICJSaWNoZmllbGQiLAogICAgICAicmVnaW9uIjogIk1OIiwKICAgICAg
+        ImZ1bGxQb3N0YWxDb2RlIjogIjU1NDIzIiwKICAgICAgImNvdW50cnkiOiAi
+        VVMiLAogICAgICAibGF0IjogNDQuODYzMzEyLAogICAgICAibG5nIjogLTkz
+        LjI5MjU1NywKICAgICAgImhvdXJzIjogIk1vbjogMTAtOTsgVHVlOiAxMC05
+        OyBXZWQ6IDEwLTk7IFRodXJzOiAxMC05OyBGcmk6IDEwLTk7IFNhdDogMTAt
+        OTsgU3VuOiAxMC04IiwKICAgICAgImhvdXJzQW1QbSI6ICJNb246IDEwYW0t
+        OXBtOyBUdWU6IDEwYW0tOXBtOyBXZWQ6IDEwYW0tOXBtOyBUaHVyczogMTBh
+        bS05cG07IEZyaTogMTBhbS05cG07IFNhdDogMTBhbS05cG07IFN1bjogMTBh
+        bS04cG0iLAogICAgICAiZ210T2Zmc2V0IjogLTYsCiAgICAgICJzZXJ2aWNl
+        cyI6IFsKICAgICAgICB7CiAgICAgICAgICAic2VydmljZSI6ICJXaW5kb3dz
+        IFN0b3JlIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZp
+        Y2UiOiAiUGFjaWZpYyBLaXRjaGVuICYgSG9tZSIKICAgICAgICB9LAogICAg
+        ICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjogIkdlZWsgU3F1YWQgU2Vydmlj
+        ZXMiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAic2VydmljZSI6
+        ICJCZXN0IEJ1eSBNb2JpbGUiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAg
+        ICAgICAic2VydmljZSI6ICJCZXN0IEJ1eSBGb3IgQnVzaW5lc3MiCiAgICAg
+        ICAgfSwKICAgICAgICB7CiAgICAgICAgICAic2VydmljZSI6ICJBcHBsZSBT
+        aG9wIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZpY2Ui
+        OiAiRWxlY3Ryb25pY3MgUmVjeWNsaW5nIgogICAgICAgIH0sCiAgICAgICAg
+        ewogICAgICAgICAgInNlcnZpY2UiOiAiU2Ftc3VuZyBFeHBlcmllbmNlIgog
+        ICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZpY2UiOiAiQ2Ft
+        ZXJhIEV4cGVyaWVuY2UgU2hvcCAiCiAgICAgICAgfSwKICAgICAgICB7CiAg
+        ICAgICAgICAic2VydmljZSI6ICJMRyBFeHBlcmllbmNlICIKICAgICAgICB9
+        LAogICAgICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjogIk1hZ25vbGlhIERl
+        c2lnbiBDZW50ZXIgIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAg
+        InNlcnZpY2UiOiAiQ2FyICYgR1BTIEluc3RhbGxhdGlvbiBTZXJ2aWNlcyIK
+        ICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjogIkhh
+        YmxhbW9zIEVzcGHDsW9sIgogICAgICAgIH0KICAgICAgXSwKICAgICAgInBo
+        b25lIjogIjYxMi04NjEtMzkxNyIsCiAgICAgICJwb3N0YWxDb2RlIjogIjU1
+        NDIzIgogICAgfSwKICAgIHsKICAgICAgInN0b3JlSWQiOiAyMzg3LAogICAg
+        ICAic3RvcmVUeXBlIjogIk1vYmlsZSIsCiAgICAgICJ0cmFkZUluIjogIlRy
+        YWRlLUluIC0gTm8tcmVjZWlwdCIsCiAgICAgICJuYW1lIjogIlJpY2hmaWVs
+        ZCIsCiAgICAgICJsb25nTmFtZSI6ICJCZXN0IEJ1eSBNb2JpbGUgLSBSaWNo
+        ZmllbGQiLAogICAgICAiYWRkcmVzcyI6ICI2NjAxIE5pY29sbGV0IEF2ZSBT
+        IiwKICAgICAgImFkZHJlc3MyIjogIiIsCiAgICAgICJjaXR5IjogIlJpY2hm
+        aWVsZCIsCiAgICAgICJyZWdpb24iOiAiTU4iLAogICAgICAiZnVsbFBvc3Rh
+        bENvZGUiOiAiNTU0MjMiLAogICAgICAiY291bnRyeSI6ICJVUyIsCiAgICAg
+        ICJsYXQiOiA0NC44ODI5NDIsCiAgICAgICJsbmciOiAtOTMuMjc3NSwKICAg
+        ICAgImhvdXJzIjogIk1vbjogMTEtODsgVHVlOiAxMS04OyBXZWQ6IDExLTg7
+        IFRodXJzOiAxMS04OyBGcmk6IDExLTg7IFNhdDogMTAtNzsgU3VuOiAxMS02
+        IiwKICAgICAgImhvdXJzQW1QbSI6ICJNb246IDExYW0tOHBtOyBUdWU6IDEx
+        YW0tOHBtOyBXZWQ6IDExYW0tOHBtOyBUaHVyczogMTFhbS04cG07IEZyaTog
+        MTFhbS04cG07IFNhdDogMTBhbS03cG07IFN1bjogMTFhbS02cG0iLAogICAg
+        ICAiZ210T2Zmc2V0IjogLTYsCiAgICAgICJzZXJ2aWNlcyI6IFsKICAgICAg
+        ICB7CiAgICAgICAgICAic2VydmljZSI6ICJCZXN0IEJ1eSBNb2JpbGUgU3Bl
+        Y2lhbHR5IFN0b3JlIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAg
+        InNlcnZpY2UiOiAiRWxlY3Ryb25pY3MgUmVjeWNsaW5nIgogICAgICAgIH0s
+        CiAgICAgICAgewogICAgICAgICAgInNlcnZpY2UiOiAiU2Ftc3VuZyBFeHBl
+        cmllbmNlIFNob3AiCiAgICAgICAgfQogICAgICBdLAogICAgICAicGhvbmUi
+        OiAiNjEyLTg2Ni0wOTU3IiwKICAgICAgInBvc3RhbENvZGUiOiAiNTU0MjMi
+        CiAgICB9CiAgXQp9
+    http_version: 
+  recorded_at: Tue, 14 Jun 2016 18:00:59 GMT
+- request:
+    method: get
+    uri: https://api.bestbuy.com/stores(postalCode=55423)?apiKey=z2ehwc7a6wvbg8n7sbmu7nuy&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - z2ehwc7a6wvbg8n7sbmu7nuy
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - text/html;charset=utf-8
+      Date:
+      - Tue, 14 Jun 2016 18:02:56 GMT
+      Server:
+      - thin 1.6.1 codename Death Proof
+      X-Cascade:
+      - pass
+      X-Mashery-Responder:
+      - prod-j-worker-us-east-1e-123.mashery.com
+      Content-Length:
+      - '18'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<h1>Not Found</h1>"
+    http_version: 
+  recorded_at: Tue, 14 Jun 2016 18:02:56 GMT
+recorded_with: VCR 3.0.3
