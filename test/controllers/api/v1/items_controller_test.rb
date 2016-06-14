@@ -37,4 +37,19 @@ class Api::V1::ItemsControllerTest < ActionController::TestCase
     refute parsed_json.has_key?("created_at")
     refute parsed_json.has_key?("updated_at")
   end
+
+  test "deletes one item" do
+    item = Item.create(id: 1, name: "Fork", description: "Description 1",
+                    image_url: "http://images/image.png", created_at: "2012-06-12",
+                    updated_at: "2014-12-12")
+    id = item.id
+    delete "destroy", id: id, format: :json
+
+    assert_response 204
+    assert_equal "", response.body
+    # reufute_equal "Fork", parsed_json["name"]
+    # refute_equal "Description 1", parsed_json["description"]
+    # refute_equal "http://images/image.png", parsed_json["image_url"]
+  end
+
 end
