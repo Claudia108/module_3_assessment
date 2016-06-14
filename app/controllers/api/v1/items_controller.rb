@@ -10,13 +10,21 @@ class Api::V1::ItemsController < Api::V1::ApiController
 
   def destroy
     item = Item.find(params[:id])
-    # binding.pry
     respond_with item.delete
   end
+
+  def create
+    respond_with Item.create(item_params)
+  end
+
 
   private
 
   def item_params
-    params.require(:items).permit!
+    params.require(:items).permit(:id, :name, :description, :image_url)
+  end
+
+  def create_item
+    
   end
 end
