@@ -14,7 +14,7 @@ class Api::V1::ItemsController < Api::V1::ApiController
   end
 
   def create
-    respond_with Item.create(item_params)
+    respond_with Item.create(params)
   end
 
 
@@ -24,7 +24,8 @@ class Api::V1::ItemsController < Api::V1::ApiController
     params.require(:items).permit(:id, :name, :description, :image_url)
   end
 
-  def create_item
-    
-  end
+  # def create_item(params)
+  #   params[:name, :description, :image_url]
+  #
+  # end
 end
