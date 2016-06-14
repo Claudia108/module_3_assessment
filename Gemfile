@@ -33,5 +33,6 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'minitest-vcr'
+  gem 'mocha'
 
 end
