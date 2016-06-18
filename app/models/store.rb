@@ -4,8 +4,8 @@ class Store < OpenStruct
     BestbuyService.new
   end
 
-  def self.all
-    stores = service.raw_stores
+  def self.find_by(location)
+    stores = service.raw_stores(location)[:stores]
     stores.map do |store|
       Store.new(store)
     end

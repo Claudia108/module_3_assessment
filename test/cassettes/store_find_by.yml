@@ -29,7 +29,7 @@ http_interactions:
       X-Mashery-Error-Code:
       - ERR_403_DEVELOPER_INACTIVE
       X-Mashery-Responder:
-      - prod-j-worker-us-east-1e-124.mashery.com
+      - prod-j-worker-us-east-1b-118.mashery.com
       Content-Length:
       - '80'
       Connection:
