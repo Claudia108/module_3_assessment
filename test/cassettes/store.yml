@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bestbuy.com/v1/stores(storeId=211)?apiKey=z2ehwc7a6wvbg8n7sbmu7nuy&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 19 Jun 2016 23:35:37 GMT
+      Server:
+      - thin 1.6.1 codename Death Proof
+      X-Mashery-Responder:
+      - prod-j-worker-us-east-1e-108.mashery.com
+      Content-Length:
+      - '1833'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJmcm9tIjogMSwKICAidG8iOiAxLAogICJ0b3RhbCI6IDEsCiAgImN1
+        cnJlbnRQYWdlIjogMSwKICAidG90YWxQYWdlcyI6IDEsCiAgInF1ZXJ5VGlt
+        ZSI6ICIwLjAwMyIsCiAgInRvdGFsVGltZSI6ICIwLjAwNiIsCiAgInBhcnRp
+        YWwiOiBmYWxzZSwKICAiY2Fub25pY2FsVXJsIjogIi92MS9zdG9yZXMoc3Rv
+        cmVJZD0yMTEpP2Zvcm1hdD1qc29uJmFwaUtleT16MmVod2M3YTZ3dmJnOG43
+        c2JtdTdudXkiLAogICJzdG9yZXMiOiBbCiAgICB7CiAgICAgICJzdG9yZUlk
+        IjogMjExLAogICAgICAic3RvcmVUeXBlIjogIkJpZ0JveCIsCiAgICAgICJ0
+        cmFkZUluIjogIlRyYWRlLUluIOKAkyBCZXN0IEJ1eSByZWNlaXB0IHJlcXVp
+        cmVkIiwKICAgICAgIm5hbWUiOiAiQ29sb3JhZG8gQmx2ZCIsCiAgICAgICJs
+        b25nTmFtZSI6ICJCZXN0IEJ1eSAtIENvbG9yYWRvIEJsdmQiLAogICAgICAi
+        YWRkcmVzcyI6ICI0MTAwIEUgTWV4aWNvIEF2ZSIsCiAgICAgICJhZGRyZXNz
+        MiI6ICJTdGUgQSIsCiAgICAgICJjaXR5IjogIkRlbnZlciIsCiAgICAgICJy
+        ZWdpb24iOiAiQ08iLAogICAgICAiZnVsbFBvc3RhbENvZGUiOiAiODAyMjIi
+        LAogICAgICAiY291bnRyeSI6ICJVUyIsCiAgICAgICJsYXQiOiAzOS42ODUx
+        NTgsCiAgICAgICJsbmciOiAtMTA0LjkzNzg3LAogICAgICAiaG91cnMiOiAi
+        TW9uOiAxMC05OyBUdWU6IDEwLTk7IFdlZDogMTAtOTsgVGh1cnM6IDEwLTk7
+        IEZyaTogMTAtOTsgU2F0OiAxMC05OyBTdW46IDEwLTgiLAogICAgICAiaG91
+        cnNBbVBtIjogIk1vbjogMTBhbS05cG07IFR1ZTogMTBhbS05cG07IFdlZDog
+        MTBhbS05cG07IFRodXJzOiAxMGFtLTlwbTsgRnJpOiAxMGFtLTlwbTsgU2F0
+        OiAxMGFtLTlwbTsgU3VuOiAxMGFtLThwbSIsCiAgICAgICJnbXRPZmZzZXQi
+        OiAtNiwKICAgICAgInNlcnZpY2VzIjogWwogICAgICAgIHsKICAgICAgICAg
+        ICJzZXJ2aWNlIjogIldpbmRvd3MgU3RvcmUiCiAgICAgICAgfSwKICAgICAg
+        ICB7CiAgICAgICAgICAic2VydmljZSI6ICJHZWVrIFNxdWFkIFNlcnZpY2Vz
+        IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZpY2UiOiAi
+        QmVzdCBCdXkgTW9iaWxlIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAg
+        ICAgInNlcnZpY2UiOiAiQmVzdCBCdXkgRm9yIEJ1c2luZXNzIgogICAgICAg
+        IH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZpY2UiOiAiQXBwbGUgU2hv
+        cCIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjog
+        IkVsZWN0cm9uaWNzIFJlY3ljbGluZyIKICAgICAgICB9LAogICAgICAgIHsK
+        ICAgICAgICAgICJzZXJ2aWNlIjogIkNhbWVyYSBFeHBlcmllbmNlIFNob3Ag
+        IgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNlcnZpY2UiOiAi
+        UGFjaWZpYyBLaXRjaGVuICYgSG9tZSIKICAgICAgICB9LAogICAgICAgIHsK
+        ICAgICAgICAgICJzZXJ2aWNlIjogIlNhbXN1bmcgRXhwZXJpZW5jZSIKICAg
+        ICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjogIkxHIEV4
+        cGVyaWVuY2UgIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgInNl
+        cnZpY2UiOiAiU29ueSBFeHBlcmllbmNlICIKICAgICAgICB9LAogICAgICAg
+        IHsKICAgICAgICAgICJzZXJ2aWNlIjogIk1hZ25vbGlhIEhvbWUgVGhlYXRl
+        ciIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJzZXJ2aWNlIjog
+        IkNhciAmIEdQUyBJbnN0YWxsYXRpb24gU2VydmljZXMiCiAgICAgICAgfQog
+        ICAgICBdLAogICAgICAicGhvbmUiOiAiMzAzLTc1OC01ODA1IiwKICAgICAg
+        InBvc3RhbENvZGUiOiAiODAyMjIiCiAgICB9CiAgXQp9
+    http_version: 
+  recorded_at: Sun, 19 Jun 2016 23:35:37 GMT
+recorded_with: VCR 3.0.3

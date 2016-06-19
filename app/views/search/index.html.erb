@@ -1,9 +1,16 @@
-<h1>Stores by Postal Code</h1>
+<h1> <%= @total  %> Total Stores</h1>
 
-<% @stores.each do |store| %>
-  <%= store.longName %>
-  <%= store.city %>
-  <%= store.distance %>
-  <%= store.phone %>
-  <%= store.storeType %>
+<div class="stores">
+
+<% @stores.each_with_index do |store, i| %>
+  <div class="store-<%= i %>">
+    <h3><%= link_to store.longName, search_store_path(store.storeId) %></h3>
+    <ul>
+      <li>City: <%= store.city %></li>
+      <li>Distance: <%= store.distance %> miles</li>
+      <li>Phone number: <%= store.phone %></li>
+      <li>Store Type: <%= store.storeType %></li>
+    </ul>
+  </div>
 <% end %>
+</div>

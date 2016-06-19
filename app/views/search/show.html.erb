@@ -1,0 +1,12 @@
+<h3> <%= @store.longName %> </h3>
+
+<p>Store Type: <%= @store.storeType %></p>
+<p>Address, City, State, Zip: <%= @store.address %>
+  <%= @store.city %>,
+  <%= @store.region %> <%= @store.fullPostalCode %></p>
+
+Hours: <ul>
+  <% @hours.each do |hour| %>
+    <li><%= hour %></li>
+  <% end %>
+</ul>
